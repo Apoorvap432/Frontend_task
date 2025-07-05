@@ -32,6 +32,9 @@ import { useMemo, useState } from 'react';
 import { toggleManageColumnsModal } from '@/store/slices/uiSlice';
 import SettingsIcon from '@mui/icons-material/Settings';
 import DeleteIcon from '@mui/icons-material/Delete';
+import { v4 as uuidv4 } from 'uuid';
+id: uuidv4()
+
 
 const ROWS_PER_PAGE = 10;
 
